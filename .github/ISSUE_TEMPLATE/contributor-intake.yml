@@ -1,0 +1,47 @@
+name: Contributor intake
+description: Tell AAB how you would like to contribute or ask where your contribution belongs.
+title: "[Contributor]: "
+labels: ["status:needs-triage"]
+body:
+  - type: dropdown
+    id: interest_area
+    attributes:
+      label: Interest area
+      options:
+        - Case or pilot review
+        - Data and schema
+        - Standards
+        - Policy monitoring
+        - Research synthesis
+        - Website or technical tools
+        - Community dialogue
+        - General volunteering
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Relevant background
+      description: Share public-safe context about your expertise, role, or interest.
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: How you want to help
+      description: Describe the contribution, question, or support you want to offer.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Public links or sources
+      description: Optional public links relevant to your contribution.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I have not included credentials, private student data, confidential partner documents, or private contact lists.
+          required: true
