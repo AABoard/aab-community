@@ -1,6 +1,6 @@
-# AAB Community
+# AABoard Community
 
-This repository is the public collaboration hub for people who want to contribute to the International AI Assessment Board (AAB). It routes contributors into the right workstream: case review, standards development, research synthesis, policy monitoring, website improvement, community dialogue, and volunteer support.
+This repository is the public collaboration hub for people who want to contribute to the International AI Assessment Board (AABoard). It routes contributors into the right workstream: case review, standards development, research synthesis, policy monitoring, website improvement, community dialogue, and volunteer support.
 
 ## What Belongs Here
 
